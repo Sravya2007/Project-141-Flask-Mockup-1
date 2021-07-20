@@ -1,8 +1,5 @@
-from typing import Dict
 from flask import Flask, jsonify, request
 import csv
-
-from numpy import clongdouble
 
 all_articles = []
 
